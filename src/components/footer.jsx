@@ -17,11 +17,11 @@ const Footer = () => {
                     </ol>
                 </div>
             </div>
-                <div className="flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-500">
+                <div className="flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-500 items-center">
                         <p>
                             2024 Ordnyr, All right reserved.
                         </p>
-                        <div className="flex justify-between gap-10 sm:w-[300px] pt-4 text-2x1">
+                        <div className="flex justify-end gap-10 sm:w-[300px] pt-4 text-2x1">
                             <FaInstagram/>
                             <FaGithub/>
                         </div>
