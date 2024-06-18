@@ -24,13 +24,13 @@ const Content = () => {
         {
             'id' : 4,
             'title' : 'MiniGT',
-            'desc' : "MINI GT marks the start of a new adventure for TSM-Models.",
+            'desc' : "MINI GT marks the start of a new adventure for TSM-Models. ",
             'coverImg' : 'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/97/MTA-146620824/no-brand_no-brand_full01.jpg'
         },
         {
             'id' : 5,
             'title' : 'MiniGT',
-            'desc' : "MINI GT marks the start of a new adventure for TSM-Models.",
+            'desc' : "MINI GT marks the start of a new adventure for TSM-Models.  ",
             'coverImg' : 'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/97/MTA-146620824/no-brand_no-brand_full01.jpg'
         }
     ]

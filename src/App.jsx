@@ -1,11 +1,10 @@
-import { Navbar, Content, Footer} from "./components"
+import { LandingPage, Contents } from "./pages"
 
 export default function App() {
   return (
     <div>
-      <Navbar />
-      <Content />
-      <Footer/>
+      <LandingPage/>
+      <Contents/>
     </div>
   )
 }
