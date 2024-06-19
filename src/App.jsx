@@ -1,10 +1,10 @@
-import { LandingPage, Contents } from "./pages"
+import { LandingPage, BlogContentPages} from "./pages"
 
 export default function App() {
   return (
     <div>
       <LandingPage/>
-      <Contents/>
+      <BlogContentPages/>
     </div>
   )
 }
