@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Content = () => {
 
@@ -42,6 +43,8 @@ const Content = () => {
                 
                 
                 {Content.map((content)=>
+
+                <Link to={`/blog/${content.id}`}>
                 <div className="bg-emerald-200 rounded-xl overflow-hidden drop-shadow-md">
                     <img className="h-56 w-full object-cover" src={content.coverImg} />
                         <div className="p-8">
@@ -53,8 +56,8 @@ const Content = () => {
                             </p>
                         </div>
                 </div>
+                </Link>
                 )}
-
             </div>
         </div>
     </div>
