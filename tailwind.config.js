@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       objectPosition:{
-        'center-top' : 'center top',
+        'center-bottom' : 'center bottom',
       },
       colors: {
         primary: "#00040f",
