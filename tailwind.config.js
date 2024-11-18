@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      objectPosition:{
+        'center-top' : 'center top',
+      },
       colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
