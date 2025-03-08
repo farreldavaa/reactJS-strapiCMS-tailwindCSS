@@ -1,9 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ["./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,jsx,ts,tsx}",],
   mode: "jit",
   theme: {
     extend: {
+      keyframes: {
+        chromaShift: {
+          "0%": { filter: "hue-rotate(0deg)" },
+          "100%": { filter: "hue-rotate(360deg)" },
+        },
+      },
+      animation: {
+        chroma: "chromaShift 3s infinite linear",
+      },
       objectPosition:{
         'center-bottom' : 'center bottom',
       },

@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='w-full h-[80px] z-10 bg-white fixed drop-shadow-md relative'>
             <div className='flex justify-between items-center w-full h-full md:max-w-[1240px] m-auto'>
                 <div className='flex items-center'>
-                    <img src="" alt="" className='sm:ml-10 ss:ml-10 md:ml-3 opacity-[55%] w-full h-[25px]' />
+                    <img src="../public/images/64LOGO.png" alt="" className='sm:ml-5 ss:ml-5 md:ml-3 opacity-[100%] w-12 h-12' />
                 </div>
                 <div className='flex items-center'>
                     <ul className='hidden md:flex'>

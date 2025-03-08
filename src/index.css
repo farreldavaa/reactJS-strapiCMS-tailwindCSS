@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  max-width: full;
+  max-heght: full;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img{
+  object-position: 25% 75%;
+}
+
+@keyframes chromaAnimation{
+  0% { filter: hue-rotate(0deg); }
+  50% { filter: hue-rotate(180deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.chroma-effect{
+  animation: chromaAnimation 3s linear infinite;
+}
+
 @layer base{
   li{
     @apply p-4
