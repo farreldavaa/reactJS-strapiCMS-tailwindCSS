@@ -1,14 +1,14 @@
-import Navbar from "./navbar";
-import Content from "./content";
-import Footer from "./footer";
-import BlogContent from "./BlogContent";
-import MainPage from "./MainPages";
+import Navbar from "./Navbar";
+import InstagramEmbed from "./ContentPage";
+import Footer from "./Footer";
+import BlogPage from "./BlogPage";
+import MainPage from "./MainPage";
 import '../App.css';
 
 export {
     Navbar,
     MainPage,
-    Content,
+    InstagramEmbed,
     Footer,
-    BlogContent
+    BlogPage
 }

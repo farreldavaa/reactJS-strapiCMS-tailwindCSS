@@ -1,7 +1,11 @@
-import LandingPage from "./landingpage";
-import BlogContentPages from "./BlogContentPages";
+import LandingPage from "./LandingPage";
+import BlogContentPage from "./BlogContentPage";
+import RegisterPage from "./RegisterPage";
+import LoginPage from "./AuthPage";
 
 export{
     LandingPage,
-    BlogContentPages
+    BlogContentPage,
+    RegisterPage,
+    LoginPage,
 }

@@ -1,4 +1,4 @@
-import { LandingPage, BlogContentPages} from "./pages"
+import { LandingPage, BlogContentPage, RegisterPage, LoginPage} from "./pages"
 import {Routes, Route} from 'react-router-dom'
 
 export default function App() {
@@ -6,7 +6,9 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" element={<LandingPage/>}></Route>
-        <Route path="/blog/:id" element={<BlogContentPages/>}></Route>
+        <Route path="/register" element={<RegisterPage/>}></Route>
+        <Route path="/auth" element={<LoginPage/>}></Route>
+        <Route path="/blog/:id" element={<BlogContentPage/>}></Route>
       </Routes>
     </div>
   )
